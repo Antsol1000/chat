@@ -8,6 +8,8 @@ This messages are redirected to Kafka (with local profile Kafka should be presen
 
 There is also a Python script that sends 1000 messages to that endpoint.
 
+Also, when *fast* (*slow*) profile is active the application send a message every 0.25s (2s).
+
 ## Chat Receiver
 Consume the messages from Apache Kafka.
 
